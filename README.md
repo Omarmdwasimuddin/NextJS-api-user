@@ -1,6 +1,7 @@
 ## NextJS-api
 
-```bash
+### lib/prisma.ts
+```
 import { PrismaClient } from "@/generated/prisma";
 import { PrismaPg } from "@prisma/adapter-pg";
 import pg from "pg";
